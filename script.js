@@ -1,9 +1,6 @@
 function firstWord(s) {
-    let arr = s.split(" "); // Split the string into an array of words
-    return arr[0]; // Return the first word
+    return s.trim().split(" ")[0]; 
 }
 
-// Do not change the code below
 const s = prompt("Enter String:");
 alert(firstWord(s));
-
